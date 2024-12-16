@@ -3,7 +3,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>This is a test!</h1>
+      <div className="background-container">
+        <h1 className="thought">What's on your mind today, nigga?</h1>
+        <input type="email" />
+      </div>
     </div>
   );
 }
